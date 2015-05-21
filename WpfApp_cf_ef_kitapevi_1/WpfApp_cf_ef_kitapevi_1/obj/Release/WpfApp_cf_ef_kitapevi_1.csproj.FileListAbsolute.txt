@@ -1,0 +1,39 @@
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\WpfApp_cf_ef_kitapevi_1.exe.config
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\WpfApp_cf_ef_kitapevi_1.exe
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\EntityFramework.dll
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\EntityFramework.xml
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\MainWindow.baml
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\MainWindow.g.cs
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\App.g.cs
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1_MarkupCompile.cache
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.g.resources
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.Migrations.ilk.resources
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.Migrations.ikinci.resources
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.Migrations.hata1.resources
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.Migrations.karar1.resources
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.Properties.Resources.resources
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.csproj.GenerateResource.Cache
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.exe
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.pdb
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\WpfApp_cf_ef_kitapevi_1.pdb
+C:\Users\Ana\Documents\Visual Studio 2012\Projects\2DONEM\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.csprojResolveAssemblyReference.cache
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\WpfApp_cf_ef_kitapevi_1.exe.config
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.exe
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.pdb
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\WpfApp_cf_ef_kitapevi_1.exe
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\WpfApp_cf_ef_kitapevi_1.pdb
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\EntityFramework.dll
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\EntityFramework.xml
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.csprojResolveAssemblyReference.cache
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\MainWindow.baml
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\MainWindow.g.cs
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\App.g.cs
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1_MarkupCompile.cache
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.g.resources
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.Properties.Resources.resources
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.csproj.GenerateResource.Cache
+C:\Users\ohd\Documents\GitHub\WpfApp_cf_ef_kitapevi_1\WpfApp_cf_ef_kitapevi_1\obj\Release\WpfApp_cf_ef_kitapevi_1.Migrations.yeni.resources
