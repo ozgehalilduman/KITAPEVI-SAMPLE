@@ -22,8 +22,7 @@ namespace WpfApp_cf_ef_kitapevi_1
         {
             verikaynak.kitaplar.ToList();
             verikaynak.uyeler.ToList();
-            verikaynak.kitapturleri.ToList();
-            //verikaynak.
+            verikaynak.kitapturleri.ToList();            
         }
         //veritabanındaki kitapturu bilgilerini diger bilesenlere servis eden metot
         public ObservableCollection<kitaptur> kitapturuListesi()

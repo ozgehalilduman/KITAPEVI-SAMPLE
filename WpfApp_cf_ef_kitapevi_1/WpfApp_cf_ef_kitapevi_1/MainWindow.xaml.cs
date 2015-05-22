@@ -285,7 +285,7 @@ namespace WpfApp_cf_ef_kitapevi_1
                 MessageBox.Show("İŞLEMİNİZ GERÇEKLEŞTİ");
                 _uye.kitaplar.Add(_kitap);
                 vt.Guncelle();
-                db_grid_uye_kitap.Items.Refresh();
+                db_grid_uye_kitap.ItemsSource = vt.uye_kitap_listesi();
             }
             else
             {
