@@ -23,6 +23,7 @@ namespace WpfApp_cf_ef_kitapevi_1
             verikaynak.kitaplar.ToList();
             verikaynak.uyeler.ToList();
             verikaynak.kitapturleri.ToList();
+            //verikaynak.
         }
         //veritabanındaki kitapturu bilgilerini diger bilesenlere servis eden metot
         public ObservableCollection<kitaptur> kitapturuListesi()
@@ -70,6 +71,21 @@ namespace WpfApp_cf_ef_kitapevi_1
         {
             verikaynak.uyeler.Remove(kayit);
             Guncelle();
+        }
+        //KİTAP ve UYE TABLOLARININ İLİŞKİSİ
+        public ObservableCollection<Object> kitap_uye_listesi()
+        {
+            var istenen_kayitlar = (from k in verikaynak.kitaplar
+                                    from u in k.uyeler
+                                    select new { kitapad = k.kitapad, ad = u.uyead, soyad = u.uyesoyad }).ToList();
+            return new ObservableCollection<object>(istenen_kayitlar);
+        }
+        public ObservableCollection<Object> uye_kitap_listesi()
+        {
+            var istenen_kayitlar = (from u in verikaynak.uyeler
+                                    from k in u.kitaplar
+                                    select new { ad = u.uyead, soyad = u.uyesoyad, kitapad = k.kitapad }).ToList();
+            return new ObservableCollection<object>(istenen_kayitlar);
         }
         //KAYITLARIN GUNCELENDİĞİ ANA KISIM
         public void Guncelle() 

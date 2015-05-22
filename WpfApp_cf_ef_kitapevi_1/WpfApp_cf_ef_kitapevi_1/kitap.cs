@@ -31,6 +31,6 @@ namespace WpfApp_cf_ef_kitapevi_1
         //Hareket alanlari
         public virtual kitaptur kitaptur { get; set; }
         //burada bir karar verdim okulda açıkladım    
-        //public virtual List<uye> uyeler { get; set; }
+        public virtual List<uye> uyeler { get; set; }
     }
 }

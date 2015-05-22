@@ -67,6 +67,10 @@
     <Compile Include="Migrations\201505211450057_yeni.Designer.cs">
       <DependentUpon>201505211450057_yeni.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201505220319522_yeni_iliski.cs" />
+    <Compile Include="Migrations\201505220319522_yeni_iliski.Designer.cs">
+      <DependentUpon>201505220319522_yeni_iliski.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="uye.cs" />
     <Compile Include="vt_islemleri.cs" />
@@ -101,6 +105,9 @@
     </Compile>
     <EmbeddedResource Include="Migrations\201505211450057_yeni.resx">
       <DependentUpon>201505211450057_yeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505220319522_yeni_iliski.resx">
+      <DependentUpon>201505220319522_yeni_iliski.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

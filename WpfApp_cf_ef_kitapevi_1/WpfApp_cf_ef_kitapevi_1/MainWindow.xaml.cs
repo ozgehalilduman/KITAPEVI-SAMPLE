@@ -24,6 +24,7 @@ namespace WpfApp_cf_ef_kitapevi_1
         kitaptur _kitaptur;
         uye _uye;
         kitap _kitap;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -35,6 +36,9 @@ namespace WpfApp_cf_ef_kitapevi_1
             db_grid_kitaplar.ItemsSource = vt.kitapListesi();
             db_grid_kitapturleri.ItemsSource = vt.kitapturuListesi();
             db_grid_uyeler.ItemsSource = vt.uyeListesi();
+            db_grid_sec_kitap.ItemsSource = vt.kitapListesi();
+            db_grid_sec_uye.ItemsSource = vt.uyeListesi();
+            db_grid_uye_kitap.ItemsSource = vt.uye_kitap_listesi();
             cb_kitaptur.ItemsSource = vt.kitapturuListesi();
             cb_kitap.ItemsSource = vt.kitapListesi();
         }
@@ -259,6 +263,35 @@ namespace WpfApp_cf_ef_kitapevi_1
             Txtblok_kitap_islem_sonucu.Text = "";
             Txtblok_kitapturu_islem_sonucu.Text = "";
             Txtblok_uye_islem_sonucu.Text = "";
+        }
+
+        private void db_grid_sec_uye_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            _uye=(uye)db_grid_sec_uye.SelectedItem;
+            lbl_sec_uye.Content = _uye.uyead + " " + _uye.uyesoyad;
+        }
+
+        private void db_grid_sec_kitap_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+           _kitap = (kitap)db_grid_sec_kitap.SelectedItem;
+           lbl_sec_kitap.Content = _kitap.kitapad + " (" + _kitap.kitaptur.kitapturisim + ")";
+        }
+
+        private void btn_kitapver_Click(object sender, RoutedEventArgs e)
+        {
+            //sağlam kazık olayı
+            if (db_grid_sec_kitap.SelectedItem != null && db_grid_sec_uye.SelectedItem != null)
+            {
+                MessageBox.Show("İŞLEMİNİZ GERÇEKLEŞTİ");
+                _uye.kitaplar.Add(_kitap);
+                vt.Guncelle();
+                db_grid_uye_kitap.Items.Refresh();
+            }
+            else
+            {
+                if (db_grid_sec_kitap.SelectedItem == null) { MessageBox.Show("KİTAP SEÇİLMEMİŞ"); }
+                if (db_grid_sec_uye.SelectedItem == null) { MessageBox.Show("UYE SEÇİLMEMİŞ"); }
+            }
         }
     }
 }

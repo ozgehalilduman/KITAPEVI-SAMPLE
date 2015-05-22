@@ -243,6 +243,73 @@
                     <Button x:Name="btn_yeni_uye" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Height="25" Click="btn_yeni_uye_Click" Content="Yeni Kayıt"/>
                 </Grid>
             </TabItem>
+            <TabItem Header="KİTAP ODUNC VERME">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="#FFC2C3C3" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FFC2C3C3" Margin="0,-2,0,-3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="102*"/>
+                        <ColumnDefinition Width="128*"/>
+                        <ColumnDefinition Width="167*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="db_grid_sec_uye" Margin="10,52,0,10" AutoGenerateColumns="False" CanUserAddRows="False" SelectionChanged="db_grid_sec_uye_SelectionChanged">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding uyead}" Header="AD"/>
+                            <DataGridTextColumn Binding="{Binding uyesoyad}" Header="SOYAD"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Label Content="UYELER" Margin="10,0" VerticalAlignment="Top" Foreground="Black" FontSize="18" Height="34">
+                        <Label.Effect>
+                            <DropShadowEffect BlurRadius="6" ShadowDepth="3"/>
+                        </Label.Effect>
+                    </Label>
+                    <Label x:Name="lbl_sec_uye" Content="SECİLEN:" Margin="10,26,10,0" VerticalAlignment="Top" Foreground="#FFAC0000" Height="26">
+                        <Label.Effect>
+                            <DropShadowEffect ShadowDepth="3"/>
+                        </Label.Effect>
+                    </Label>
+                    <Label Content="KİTAPLAR" Margin="10,0,0,0" VerticalAlignment="Top" Foreground="Black" FontSize="18" Height="34" Grid.Column="1">
+                        <Label.Effect>
+                            <DropShadowEffect BlurRadius="6" ShadowDepth="3"/>
+                        </Label.Effect>
+                    </Label>
+                    <Label x:Name="lbl_sec_kitap" Content="SECİLEN:" Margin="10,26,0,0" VerticalAlignment="Top" Foreground="#FFAC0000" Height="26" Grid.Column="1">
+                        <Label.Effect>
+                            <DropShadowEffect ShadowDepth="3"/>
+                        </Label.Effect>
+                    </Label>
+                    <DataGrid x:Name="db_grid_sec_kitap" Margin="10,52,10,10" Grid.Column="1" AutoGenerateColumns="False" CanUserAddRows="False" SelectionChanged="db_grid_sec_kitap_SelectionChanged">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding kitapad}" Header="KİTAP AD"/>
+                            <DataGridTextColumn Binding="{Binding kitaptur.kitapturisim}" Header="TUR"/>
+                            <DataGridTextColumn Binding="{Binding kitapyazar}" Header="YAZAR"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Label Content="VERİLEN KİTAPLAR" Margin="10,38,78,0" VerticalAlignment="Top" Foreground="Black" FontSize="18" Height="34" Grid.Column="2">
+                        <Label.Effect>
+                            <DropShadowEffect BlurRadius="6" ShadowDepth="3"/>
+                        </Label.Effect>
+                    </Label>
+                    <DataGrid x:Name="db_grid_uye_kitap" Margin="10,72,0,10" Grid.Column="2" AutoGenerateColumns="False" CanUserAddRows="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding ad}" Header="AD"/>
+                            <DataGridTextColumn Binding="{Binding soyad}" Header="SOYAD"/>
+                            <DataGridTextColumn Binding="{Binding kitapad}" Header="KİTAP"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button x:Name="btn_kitapver" Content="UYEye Kitabı VER..." Grid.Column="2" Margin="10,0" VerticalAlignment="Top" Height="28" Click="btn_kitapver_Click">
+                        <Button.Effect>
+                            <DropShadowEffect/>
+                        </Button.Effect>
+                    </Button>
+                </Grid>
+            </TabItem>
         </TabControl>
 
     </Grid>
